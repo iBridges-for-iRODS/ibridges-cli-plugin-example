@@ -44,5 +44,5 @@ You can clone this repository and adapt it to your needs. You should change the 
     - Adjust the `[project.urls]`
     - `[project.entry-points."ibridges.shell"]`
       - Rename `info` to a project ID
-      - Adjust the python class it points to `ibridgescontrib.YOUR_PY_FILE:YOUR_COMMANDS`
+      - Adjust the python class it points to `ibridgescontrib.YOUR_PACKAGE.YOUR_PY_FILE:YOUR_COMMANDS`
    - `[tool.setuptools_scm]`: write_to = "ibridgescontrib/YOUR_PACKAGE/_version.py" 
